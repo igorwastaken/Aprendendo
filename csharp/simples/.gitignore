@@ -1,0 +1,45 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.log
+*.vs/
+.vscode/
+.vsconfig
+
+# Dependency directories
+packages/
+node_modules/
+
+# .NET Core files
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio files
+.vscode/
+*.vcxproj.user
+*.vcxproj.filters
+.vscode/
+.vs/
+
+# Rider files
+.idea/
+
+# Test Results
+TestResults/

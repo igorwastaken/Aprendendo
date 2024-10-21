@@ -1,0 +1,43 @@
+# Ignore bundler config.
+.bundle
+
+# Ignore the Gems and Ruby version files.
+/vendor/bundle
+/.ruby-version
+/.ruby-gemset
+
+# Ignore Rails specific folders.
+log/*
+tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore database files.
+*.sqlite3
+*.sqlite3-journal
+
+# Ignore node modules folder (if using webpacker or any JavaScript tools).
+node_modules/
+yarn-error.log
+
+# Ignore compiled assets.
+/public/assets
+/public/packs
+/public/packs-test
+
+# Ignore coverage reports.
+/coverage/
+/coverage/*
+
+# Ignore dotenv environment variables file.
+.env
+.env.*
+
+# Ignore Spring server PIDs.
+spring/*.pid
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
